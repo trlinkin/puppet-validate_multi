@@ -1,5 +1,6 @@
 validate_multi
 ==============
+[![Build Status](https://travis-ci.org/trlinkin/puppet-validate_multi.png?branch=master)](https://travis-ci.org/trlinkin/puppet-validate_multi)
 
   Validate that the first argument given can pass validation of at least one
   other validator from the puppetlabs/stdlib library. The first argument is
