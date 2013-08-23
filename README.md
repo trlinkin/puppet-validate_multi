@@ -1,21 +1,22 @@
 validate_multi
+==============
 
-    Validate that the first argument given can pass validation of at least one
-    other validator from the puppetlabs/stdlib library. The first argument is
-    the data that needs validation. Each argument following should be the data
-    type suffix from a validator function. The suffix should be in the form of
-    a string. The passed data will then be validated against each validation
-    function listed.
+  Validate that the first argument given can pass validation of at least one
+  other validator from the puppetlabs/stdlib library. The first argument is
+  the data that needs validation. Each argument following should be the data
+  type suffix from a validator function. The suffix should be in the form of
+  a string. The passed data will then be validated against each validation
+  function listed.
 
 Examples
 --------
 
-    The following validations will pass:
+  The following validations will pass:
 
       validate_multi("I am a string",'string','array')
       validate_multi(true,'hash','bool')
 
-    The following validations will not:
+  The following validations will not:
 
       validate_multi(false,'string','array')
       validate_multi('I am a string','hash','array')
@@ -39,7 +40,7 @@ License
 Contact
 -------
 
-Tom <tom@puppetlabs.com>
+ME!  <tom@puppetlabs.com>
 
 Support
 -------
