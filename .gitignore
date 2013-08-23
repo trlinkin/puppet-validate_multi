@@ -21,3 +21,6 @@ Gemfile.lock
 .bundle/
 .vendor/
 vendor/bundle/
+
+## Puppet Module Tool
+pkg/
